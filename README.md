@@ -45,10 +45,14 @@
 - [.env.example](https://drive.google.com/file/d/1CF2Jdu5YP-iK2ydXz5M8_diOpDY7WAek/view?usp=sharing)
 ダウンロード後は、「.env.txt」 -> 「.env」に変更する必要
 
-## Fireblocks Environment vlue setting
+## Fireblocks Environment value setting
 - `FIREBLCOKS_API_KEY` Fireblocks Console API Co-signerのAPI key をセットしてください
 - `FIREBLOCKS_API_PRIVATE_KEY_PATH` Fireblocks API Co-signer API secret Fileの保管先Pathをセットしてください
 - `FIREBLOCKS_VAULT_ACCOUNT_IDS` デプロイを行うFireblocksのVaultIDを指定してください
+
+## Fireblocks TAP と Hardhat Plugin
+- [Fireblocks-TAP](https://support.fireblocks.io/hc/en-us/articles/7354983580316-About-the-TAP)
+- Fireblocs ConsoleでTAPルールを設定することでトランザクションの実行がAPI Co-signer経由で可能になります
 
 ## チェックリスト
 - アドレスがEOAかコントラクトかのチェック
