@@ -22,9 +22,7 @@
 
 ## 本プロジェクトをコピーペーストした後は
 - `yarn` で依存modulesをインストールする
-- `NewProject/contracts/Greeter.sol` を削除する
 - `NewProject/contracts/` に新規スマートコントラクトを書く
-- `NewProject/test/index.ts` を削除する
 - `NewProject/test/` ここにテストコードを書く
 
 ## コマンド一覧
@@ -46,6 +44,11 @@
 - [.env](https://drive.google.com/file/d/1WdAYVfVRAQFti2WHsYIBN_o6gUfC4FIa/view?usp=sharing)
 - [.env.example](https://drive.google.com/file/d/1CF2Jdu5YP-iK2ydXz5M8_diOpDY7WAek/view?usp=sharing)
 ダウンロード後は、「.env.txt」 -> 「.env」に変更する必要
+
+## Fireblocks Environment vlue setting
+- 'FIREBLCOKS_API_KEY' Fireblocks Console API Co-signerのAPI key をセットしてください
+- 'FIREBLOCKS_API_PRIVATE_KEY_PATH' Fireblocks API Co-signer API secret Fileの保管先Pathをセットしてください
+- 'FIREBLOCKS_VAULT_ACCOUNT_IDS' デプロイを行うFireblocksのVaultIDを指定してください
 
 ## チェックリスト
 - アドレスがEOAかコントラクトかのチェック
