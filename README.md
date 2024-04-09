@@ -46,9 +46,9 @@
 ダウンロード後は、「.env.txt」 -> 「.env」に変更する必要
 
 ## Fireblocks Environment vlue setting
-- 'FIREBLCOKS_API_KEY' Fireblocks Console API Co-signerのAPI key をセットしてください
-- 'FIREBLOCKS_API_PRIVATE_KEY_PATH' Fireblocks API Co-signer API secret Fileの保管先Pathをセットしてください
-- 'FIREBLOCKS_VAULT_ACCOUNT_IDS' デプロイを行うFireblocksのVaultIDを指定してください
+- `FIREBLCOKS_API_KEY` Fireblocks Console API Co-signerのAPI key をセットしてください
+- `FIREBLOCKS_API_PRIVATE_KEY_PATH` Fireblocks API Co-signer API secret Fileの保管先Pathをセットしてください
+- `FIREBLOCKS_VAULT_ACCOUNT_IDS` デプロイを行うFireblocksのVaultIDを指定してください
 
 ## チェックリスト
 - アドレスがEOAかコントラクトかのチェック
